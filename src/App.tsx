@@ -24,6 +24,8 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
 import {NavigationBar} from './NavBar'
 
+import {TextRevealCardHD} from "./TextRevealCardHD";
+
 export function TypewriterEffectDemo() {
   const words = [
     {
@@ -57,6 +59,7 @@ export function TypewriterEffectDemo() {
           Signup
         </button>
       </div>
+      <TextRevealCardHD></TextRevealCardHD>
     </div>
   );
 }

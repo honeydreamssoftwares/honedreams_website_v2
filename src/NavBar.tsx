@@ -9,8 +9,8 @@ export const NavigationBar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-start">
             <Link to="/" className="flex mr-4">
-              <img src='' className="h-8 mr-3" alt="Flowbite Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+              <img src='' className="h-8 mr-3" alt="Honeydreams Logo" />
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Honeydreams</span>
             </Link>
             <div className="hidden sm:flex sm:ml-6">
               <ul className="flex space-x-8">
