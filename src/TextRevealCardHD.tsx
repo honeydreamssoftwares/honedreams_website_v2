@@ -9,8 +9,8 @@ export function TextRevealCardHD() {
   return (
     <div className="flex items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
       <TextRevealCard
-        text="You know the business"
-        revealText="I know the chemistry "
+        text="Want to know a secret"
+        revealText="Software development"
       >
         <TextRevealCardTitle>
           Sometimes, you just need to see it.

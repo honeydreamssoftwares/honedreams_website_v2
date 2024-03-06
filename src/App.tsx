@@ -68,29 +68,17 @@ export function TypewriterEffectDemo() {
 export  function Home() {
   return (
     <div>
-      <NavigationBar></NavigationBar>
       <NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
-      <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+      <NavigationMenuTrigger> <ModeToggle></ModeToggle></NavigationMenuTrigger>
       <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
+        <NavigationMenuLink>Dark/Light Mode</NavigationMenuLink>
       </NavigationMenuContent>
     </NavigationMenuItem>
   </NavigationMenuList>
 </NavigationMenu>
 
-      <ModeToggle></ModeToggle>
-      <Button>Click me</Button>
-      <Accordion type="single" collapsible>
-  <AccordionItem value="item-1">
-    <AccordionTrigger>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.
-    </AccordionContent>
-  </AccordionItem>
-</Accordion>
-<ProfileForm></ProfileForm>
 
 <TypewriterEffectDemo></TypewriterEffectDemo>
     </div>
