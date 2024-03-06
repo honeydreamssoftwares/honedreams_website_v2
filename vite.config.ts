@@ -9,7 +9,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./@"),
     },
   },
-  base:'/honedreams_website_v2',
+ // base:'/honedreams_website_v2',
   build: {
     outDir: './build'
   }
