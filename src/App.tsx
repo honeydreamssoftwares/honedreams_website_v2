@@ -22,7 +22,7 @@ import {
 
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
-
+import {NavigationBar} from './NavBar'
 
 export function TypewriterEffectDemo() {
   const words = [
@@ -65,6 +65,7 @@ export function TypewriterEffectDemo() {
 export  function Home() {
   return (
     <div>
+      <NavigationBar></NavigationBar>
       <NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
