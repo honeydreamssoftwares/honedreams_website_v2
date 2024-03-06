@@ -7,17 +7,16 @@ import {
 
 export function TextRevealCardHD() {
   return (
-    <div className="flex items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
+    <div className="flex items-center justify-center  h-[40rem] rounded-2xl w-full">
       <TextRevealCard
         text="Want to know a secret"
         revealText="Software development"
       >
         <TextRevealCardTitle>
-          Sometimes, you just need to see it.
+          Some things are essential for buisness.
         </TextRevealCardTitle>
         <TextRevealCardDescription>
-          This is a text reveal card. Hover over the card to reveal the hidden
-          text.
+          Here is a secret
         </TextRevealCardDescription>
       </TextRevealCard>
     </div>
