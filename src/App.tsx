@@ -1,14 +1,14 @@
 import './App.css'
-import { Button } from "@/components/ui/button"
+//import { Button } from "@/components/ui/button"
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
+  //Accordion,
+  //AccordionContent,
+ // AccordionItem,
+  //AccordionTrigger,
 } from "@/components/ui/accordion"
 import { ThemeProvider } from "@/components/theme-provider"
 import {ModeToggle} from "@/components/mode-toggle"
-import {ProfileForm} from "./ProfileForm"
+//import {ProfileForm} from "./ProfileForm"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -22,7 +22,7 @@ import {
 
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
-import {NavigationBar} from './NavBar'
+//import {NavigationBar} from './NavBar'
 
 import {TextRevealCardHD} from "./TextRevealCardHD";
 
@@ -35,7 +35,7 @@ export function TypewriterEffectDemo() {
       text: "awesome",
     },
     {
-      text: "apps",
+      text: "software",
     },
     {
       text: "with",
